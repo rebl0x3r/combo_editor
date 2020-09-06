@@ -17,7 +17,7 @@
   
   Litte linux combo editor, just a creation of me and older version available on aut0_mak3r. If you have combos, then you can edit it with this editor. 
   The Domain sorter has more than 1 million unknown mail providers for the reason, that the combos might be more HQ if they have unknown emails.
-  If you have any errors, go here: (#bug-report)
+  If you have any errors, go here: [Bug Report](#bug-report)
   
 
 # Changelog
