@@ -4,6 +4,7 @@
 
 # Table of contents:
 * [General Information](#general-info)
+* [Changleog](#changelog)
 * [Features](#features)
 * [Installation](#installation)
 * [Disclaimer](#disclaimer)
@@ -17,6 +18,51 @@
   If you have any errors, go here: [Bug Report]
   
 
+# Changelog
+
+
+ ## In Progress:
+ 
+  - [ ] Anti-Public Checker (Not Sure)
+  - [ ] HQ Keywords Generation
+  - [ ] Dorks Section (Not Sure)
+  - [ ] New Menu 
+  - [x] USER:PASS Options
+  - [x] Randomizing Combos
+ 
+ ## Already leaked:
+ 
+  **Version 0.6**
+  * Added USER:PASS Extraction
+  * Added USER:PASS To PASS:USER
+  * Added Soft & Hard Randomizing | Shuffling Combos
+  * Added Domain Sorter
+  * Added Credit Card Extractor
+  
+  **Version 0.5**
+  * Added Better Menu
+  * Added Exit Option
+  * Fixed Bugs
+
+  **Version 0.4**
+  * Added Combine Combos
+  * Added Split Combos
+  * Fixed Bugs
+  
+  **Version 0.3**
+  * Added Remove Badlines
+  * Fixed Bugs
+  
+  **Version 0.2**
+  * Added Generate "Keywords"
+  * Fixed Bugs
+  
+  **[BETA] Version 0.1:**
+  
+  * Added Remove Emails And Passwords
+  * Added Remove Duplicates
+
+
 # Features
  
   * Delete Passwords (For Maillists/Leads)
@@ -25,6 +71,11 @@
   * Generate Keywords (Generate English Usual Keywords)
   * Combine Combos (Combine Splitted Combos)
   * Split Combos (If You Have A Big Combo You Can Split It)
+  * Extract USER:PASS (For Username & Password Logins, Such As Instagram)
+  * USER:PASS to PASS:USER (For Whatever Reason, To Make Extract HQ Wordlists)
+  * Soft & Hard Randomize Combos (Shuffling Combos - Means It Randomize The Lines)
+  * Sort Domains (Domains Sorter - I Added Over 1mio.)
+  * Extract Creditcard Data (For Carding Purpose)
   
 # Disclaimer
 
