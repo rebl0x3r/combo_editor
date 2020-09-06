@@ -7,6 +7,7 @@
 * [Changleog](#changelog)
 * [Features](#features)
 * [Installation](#installation)
+* [Email Config](#email_config)
 * [Disclaimer](#disclaimer)
 * [Credits](#credits)
 * [Social Media](#social-media)
@@ -14,8 +15,9 @@
 
 # General Information
   
-  Litte linux combo editor, just a creation of me and older version available on aut0_mak3r. If you have combos, then you can edit it with this editor.
-  If you have any errors, go here: [Bug Report]
+  Litte linux combo editor, just a creation of me and older version available on aut0_mak3r. If you have combos, then you can edit it with this editor. 
+  The Domain sorter has more than 1 million unknown mail providers for the reason, that the combos might be more HQ if they have unknown emails.
+  If you have any errors, go here: (#bug-report)
   
 
 # Changelog
@@ -96,6 +98,28 @@
   ```./combo_editor.sh -f combo.txt```
   
   Just replace the combo.txt with your combolist name.
+  
+# Email Config
+
+  The Email config is used for the domain sorter, if you want to edit the file you need to use a strong editor.
+  I recommend ```codium```, in Kali or any other system you can also use ```nano```.
+  
+  [1] First go to the directory of combo_editor
+  
+  ```cd combo_editor```
+
+  [2] Edit the ```email.conf``` File
+  
+  ```codium email.conf```
+  
+  Alternatively you can add through ```echo``` domains:
+
+  ```echo "@google.com >> email.conf; tail -5 email.conf```
+  
+  As you can see the last 5 lines, @google.com has been added successfully.
+  
+  Don't worry about duplicates i removed all duplicates and sorted the file.
+  
   
 # Credits
 
