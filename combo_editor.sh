@@ -366,7 +366,7 @@ passuser(){
 hard_mix(){
 	echo -e "${bd}"
 	echo -e "${y}[${g}*${y}] ${b}Counting lines..."; sleep 0.4
-	c=$(wc -l | ${file} awk '{print $1}')
+	c=$(wc -l ${file} | awk '{print $1}')
 	sort -R ${file} | head -${c} >> hard_randomized.txt
 	echo -e "${r}[${b}>${r}] ${w}Saved as ${y}hard_randomized.txt"; sleep 0.1
 	echo -e "${r}[${b}>${r}] \033[3;33mPress Enter"
