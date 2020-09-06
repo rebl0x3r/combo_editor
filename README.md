@@ -7,7 +7,7 @@
 * [Changleog](#changelog)
 * [Features](#features)
 * [Installation](#installation)
-* [Email Config](#email_config)
+* [Email Config](#email-config)
 * [Disclaimer](#disclaimer)
 * [Credits](#credits)
 * [Social Media](#social-media)
@@ -104,11 +104,11 @@
   The Email config is used for the domain sorter, if you want to edit the file you need to use a strong editor.
   I recommend ```codium```, in Kali or any other system you can also use ```nano```.
   
-  [1] First go to the directory of combo_editor
+  1️⃣ First go to the directory of combo_editor
   
   ```cd combo_editor```
 
-  [2] Edit the ```email.conf``` File
+  2️⃣ Edit the ```email.conf``` File
   
   ```codium email.conf```
   
