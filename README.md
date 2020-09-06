@@ -114,12 +114,15 @@
   
   Alternatively you can add through ```echo``` domains:
 
-  ```echo "@google.com >> email.conf; tail -5 email.conf```
+  ```echo "@google.com" >> email.conf; tail -5 email.conf; sort -u email.conf```
   
   As you can see the last 5 lines, @google.com has been added successfully.
   
   Don't worry about duplicates i removed all duplicates and sorted the file.
   
+  If you want to sort and remove duplicates by your own use this one liner:
+  
+  ```mv email.conf emails.conf; sort -u emails.conf | uniq -u >> email.conf; rm emails.conf```
   
 # Credits
 
@@ -133,15 +136,10 @@ _Channels :_
 [Deepwaterleaks](https://t.me/deepwaterleaks2)
                
                
-_Coder & Contact :_
-  
-[TheMasterCH](https://wa.me/2348148949234)
-                
-                
-                
+            
 # Social Media
 Telegram:
-* @TheMasterCH
+* @mrblackx2_0
 * @On1c0n3
 
 
